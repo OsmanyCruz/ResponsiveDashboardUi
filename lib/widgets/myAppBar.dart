@@ -1,0 +1,11 @@
+import 'package:flutter/material.dart';
+
+class MyAppBar extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return AppBar(
+      elevation: 0,
+      backgroundColor: Colors.white,
+    );
+  }
+}
