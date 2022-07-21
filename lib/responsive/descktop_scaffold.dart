@@ -11,18 +11,15 @@ class DescktopScaffold extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      appBar: PreferredSize(
-        preferredSize: const Size.fromHeight(kToolbarHeight),
-        child: MyAppBar(),
-      ),
       body: Row(
         children: [
           MyDrawer(),
           Expanded(
-            flex: 3,
+            flex: 8,
             child: MyContent(),
           ),
           Expanded(
+            flex: 4,
             child: MyColumnBar(),
           )
         ],

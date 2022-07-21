@@ -20,7 +20,7 @@ class MyColumnBar extends StatelessWidget {
                   ),
                   separatorBuilder: (context, index) => const Padding(
                       padding: EdgeInsets.symmetric(horizontal: 10)),
-                  itemCount: 5,
+                  itemCount: 10,
                   scrollDirection: Axis.horizontal,
                   //mainAxisAlignment: MainAxisAlignment.spaceAround,
                 ))),

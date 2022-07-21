@@ -6,6 +6,8 @@ class MyAppBar extends StatelessWidget {
     return AppBar(
       elevation: 0,
       backgroundColor: Colors.white,
+      actionsIconTheme: IconThemeData(color: Colors.grey[500]),
+      iconTheme: IconThemeData(color: Colors.grey[500]),
     );
   }
 }

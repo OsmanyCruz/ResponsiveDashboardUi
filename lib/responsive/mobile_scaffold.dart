@@ -15,6 +15,7 @@ class MobileScaffold extends StatelessWidget {
         preferredSize: const Size.fromHeight(kToolbarHeight),
         child: MyAppBar(),
       ),
+      drawer: MyDrawer(),
       body: Row(
         children: [
           Expanded(

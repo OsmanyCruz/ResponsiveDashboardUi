@@ -7,6 +7,9 @@ class MyBottomNavigationBar extends StatelessWidget {
       backgroundColor: Colors.grey[200],
       selectedItemColor: Colors.blueGrey[500],
       unselectedItemColor: Colors.grey[500],
+      selectedLabelStyle: const TextStyle(color: Colors.blueGrey),
+      unselectedLabelStyle: const TextStyle(color: Colors.grey),
+      showUnselectedLabels: true,
       items: const <BottomNavigationBarItem>[
         BottomNavigationBarItem(
           icon: Icon(Icons.home),

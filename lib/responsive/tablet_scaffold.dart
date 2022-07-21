@@ -19,11 +19,11 @@ class TabletScaffold extends StatelessWidget {
       body: Row(
         children: [
           Expanded(
-            flex: 8,
+            flex: 7,
             child: MyContent(),
           ),
           Expanded(
-            flex: 4,
+            flex: 5,
             child: MyColumnBar(),
           )
         ],
