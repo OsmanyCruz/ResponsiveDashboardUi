@@ -10,12 +10,12 @@ class DescktopScaffold extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Color(0xff1B1E2A),
       body: Row(
         children: [
           MyDrawer(),
           Expanded(
-            flex: 8,
+            flex: 10,
             child: MyContent(),
           ),
           Expanded(
